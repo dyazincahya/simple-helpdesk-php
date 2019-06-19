@@ -1,12 +1,12 @@
-#simple-helpdesk-php
+# simple-helpdesk-php
 
-###module
--Ticketing
+### module
+- Ticketing
 
-###module ref
--Department
--Priority
--Service
--User
+### module reference
+- Department
+- Priority
+- Service
+- User
 
 
