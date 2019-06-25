@@ -2,6 +2,7 @@
 
 ### module
 - Ticketing
+- Report
 
 ### module reference
 - Department
