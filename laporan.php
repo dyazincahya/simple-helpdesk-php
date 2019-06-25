@@ -1,14 +1,7 @@
 <?php include('header.php');?>
 
-<?php
-    /*$user = Q_array("SELECT * FROM tbl_user WHERE tu_role='customer' ORDER BY tu_id DESC");
-    $department = Q_array("SELECT * FROM tbl_department ORDER BY td_id DESC");
-    $service = Q_array("SELECT * FROM tbl_service ORDER BY ts_id DESC");
-    $priority = Q_array("SELECT * FROM tbl_priority ORDER BY tp_id DESC");*/
-?>
-
 <div class="container">
-    <div class="page-header"><h1>Laporan</h1></div>
+    <div class="page-header print-header"><h1>Laporan</h1></div>
     
     <?php if(!isset($_GET['hideformfilter'])) { ?>
         <form method="GET">
@@ -62,10 +55,13 @@
                 ORDER BY tt_id DESC
             ";
             $data = Q_array($sql);
+            $data_count = Q_count($sql);
 
             $re_start = date("d F Y", strtotime($_GET['start']));
             $re_end = date("d F Y", strtotime($_GET['end']));
-            echo '<p>Berikut ini adalah daftar laporan tiket periode <b>'. $re_start .'</b> sampai <b>'. $re_end .'</b></p>';
+
+            echo '<div class="print-container">';
+            echo '<p>Berikut ini adalah daftar laporan tiket periode <b>'. $re_start .'</b> sampai <b>'. $re_end .'</b> terdapat <span class="label label-default">'. $data_count .' data</span></p>';
 
             echo '
                 <table class="table table-bordered">
@@ -95,11 +91,10 @@
                 ";
             }
             echo '</table>';
-            /*echo "<pre>";
-            print_r($data);*/
-            echo '<a href="'. site_url() .'/laporan.php" class="btn btn-danger">Clear Filter</a> ';
+            echo '</div>';
+            echo '<button onclick="window.print()" class="btn btn-primary print-hide">Print Now</button> ';
+            echo '<a href="'. site_url() .'/laporan.php" class="btn btn-default print-hide">Clear Filter</a> ';
         }
     ?>
 </div>
-
 <?php include('footer.php');?>

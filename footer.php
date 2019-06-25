@@ -37,7 +37,7 @@
         redirect_to(site_url(true));
     }
 ?>
-<footer style="background-color:#2A2730;padding:30px;margin-top:30px;color:#FFFFFF;">
+<footer class="print-hide" style="background-color:#2A2730;padding:30px;margin-top:30px;color:#FFFFFF;">
     <div class="container">
         <p>Created by <a href="<?=CONF_AUTHOR_URL;?>" target="_blank"><?=CONF_AUTHOR;?></a> &copy; 2019<?=(date("Y") > 2019) ? ' - '.date("Y").'.' : '.' ?></p>
         <p>Code licensed <a href="<?=CONF_LICENSE_URL;?>" rel="license noopener" target="_blank"><?=CONF_LICENSE;?></a>, powered by <a href="<?=CONF_POWERED_URL;?>" target="_blank"><?=CONF_POWERED;?></a>.</p>
