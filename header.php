@@ -20,7 +20,6 @@
             size: auto;   /* auto is the current printer page size */
             margin: 0mm;  /* this affects the margin in the printer settings */
         }
-
         .print-hide{ display: none; }
         .print-header{ font-size: 15px; }
         .print-container{ font-size: 10px; }
