@@ -6,11 +6,11 @@
 
 > PASSWORD : 123
 
-### module
+### Module
 - Ticketing
 - Report
 
-### module reference
+### Module Reference
 - Department
 - Priority
 - Service
@@ -19,10 +19,10 @@
 ### Requirement
 PHP 5.6 or Newer
 
-### build with
+### Build With
 - PHP 5.6
 - Bootstrap 3.4
 - MysqlDB
 
-### screenshot
+### Screenshot
 ![main](https://github.com/dyazincahya/simple-helpdesk-php/blob/master/screenshot/main.png)
