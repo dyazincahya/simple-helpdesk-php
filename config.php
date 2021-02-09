@@ -4,7 +4,7 @@
 	define("CONF_PASSWORD", 		"");
 	define("CONF_DATABASE", 		"db_helpdesk_web");
 	define("CONF_DIR_PROJECT", 		"simple-helpdesk-php");
-	define("CONF_AUTHOR", 			"CAHYA DYAZIN");
+	define("CONF_AUTHOR", 			"KANG CAHYA");
 	define("CONF_AUTHOR_URL", 		"https://www.kang-cahya.com/");
 	define("CONF_LICENSE", 			"MIT");
 	define("CONF_LICENSE_URL", 		"https://github.com/twbs/bootstrap/blob/v3-dev/LICENSE");
