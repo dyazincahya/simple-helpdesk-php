@@ -22,7 +22,7 @@ PHP 5.6 or Newer
 ### Build With
 - PHP 5.6
 - Bootstrap 3.4
-- MysqlDB
+- MYSQLDB
 
 ### Screenshot
 ![main](https://github.com/dyazincahya/simple-helpdesk-php/blob/master/screenshot/main.png)
