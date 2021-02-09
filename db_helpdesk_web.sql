@@ -130,8 +130,8 @@ CREATE TABLE `tbl_user` (
 --
 
 INSERT INTO `tbl_user` (`tu_id`, `tu_role`, `tu_user`, `tu_pass`, `tu_full_name`, `tu_email`) VALUES
-(1, 'admin', 'admin', '123', 'Cahya DY', 'cahya@yahoo.com'),
-(2, 'customer', 'vierundsieben', '123', 'qqq', 'dyazincahya@gmail.com');
+(1, 'admin', 'admin', '123', 'Kang cahya', 'cahya@yahoo.com'),
+(2, 'customer', 'customer', '123', 'Customer', 'customer@gmail.com');
 
 --
 -- Indexes for dumped tables
