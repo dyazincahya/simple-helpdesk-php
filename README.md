@@ -16,8 +16,11 @@
 - Service
 - User
 
+### Requirement
+PHP 5.6 or Newer
+
 ### build with
-- PHP native 5.6
+- PHP 5.6
 - Bootstrap 3.4
 - MysqlDB
 
